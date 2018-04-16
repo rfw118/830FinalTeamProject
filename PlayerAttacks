@@ -1,0 +1,16 @@
+Player Attacks Enemy
+It wouldn’t be Star Wars, if we didn’t have laser beams flying at each other, and laser swords! Attacking an enemy would be a core part of the game. If the player selects the attack action and a ranged attack weapon class is equipped, allow the player to target an enemy at a range, and damage based on the weapons ranged capabilities. There should be an attribute for health for the enemy that is visible to the player, and as damage is dealt to the enemy, show the player the damage that is dealt to the enemy. The player should see how much damage they deal to the enemy, and how much life the enemy has remaining. 
+
+If player is equipped with ranged weapon, player can target enemy outside of melee space.
+If player is equipped with melee weapon, player can target enemy only within melee space.
+If no weapon is equipped and attack action is selected, return error “Cannot attack without weapon equipped.”
+Player is displayed damage dealt to enemy. Player sees enemy life total reduce by damage dealt.
+Player can encounter opponent without being observed.
+    Player can engage opponent.
+    Player can evade opponent and remain unobserved.
+        Player can successfully evade capture.
+Player encounters opponent while being observed.
+    Player can engage opponent.
+    Player can evade opponent. 
+        Player can engage opponent after attempting evasion.
+        Player can successfully evade capture.
