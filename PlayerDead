@@ -1,0 +1,11 @@
+Player Loses the Game
+Prerequisite: Player has 0 health. 
+
+So, the player lost the game. The player gave it their best, but the force was just not with them. Display a ‘You lost’ page to the player. A scrolling text box will pass the user by, delivering the narrative of what happened to the galaxy because of their failure. Make it something that challenges them to play again. Display an option for the user to start again. 
+
+Player is greeted with scrolling text box of obvious inadequacies as player. Narrative included. 
+Player is displayed with an option to start again. 
+If player starts again: [see new game user story]
+    If player does not select correct key, error: [Please enter valid command]
+If player does not: display ‘better luck next time’ and then quit game. 
+If player does not select proper option, error: Please choose an option. 
