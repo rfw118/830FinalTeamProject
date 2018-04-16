@@ -1,0 +1,17 @@
+Player equips item 
+
+Prerequisite: Player has Displayed Inventory
+Player can view items to equip from inventory
+Play can preview item to equip from inventory, and a brief description of what each item does 
+Player can exit preview OR 
+    Player can equip item by choosing in preview screen
+Player can choose item to equip item from main inventory page
+Player can unequip item from main inventory page
+     If item not equipped, return error, “item needs to be equipped” 
+Player can have only one item 
+    If more than one item equipped, return error “Cannot choose more than one item” 
+
+Player confirms item choice 
+   If player does not confirm item choice, return error “Please confirm item choice” 
+
+Player returns to main screen(?) After confirming 
