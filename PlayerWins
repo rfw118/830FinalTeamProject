@@ -1,0 +1,9 @@
+Player Wins the Game
+
+The force is strong with the user. They have won the game. They should be made to feel like champions. The player is given a scrolling text narrative describing what their heroic accomplishments have done for the galaxy they sought to protect. Make it something that makes them feel awesome. Then invite the player to play again. 
+
+Player is greeted with scrolling text box of sweet victory as player. Narrative included. 
+Player is displayed with an option to start again. 
+If player starts again: [see new game user story]
+If player does not: display ‘Thank you for playing’’ and then quit game. 
+If player does not select proper option, error: Please choose an option. 
