@@ -1,0 +1,7 @@
+Player uses item.
+Prerequisite: Player must have the item in his inventory.  The item must be equipped when necessary. Player must be alive.
+If the player tries to use an item that is not currently equipped an error message will be displayed that the item must be equipped.  Player can use a one handed or two handed item by pressing a key.  Player will be able to use two items if there they are one handed item so long as they are used consecutively not simultaneously.  If the item has charges it will not operate but will still be equipped until additional charges are gathered. If the item requires recharge it will continue to be equipped but not functional until the recharge period has elapsed.  If an item is a one time use then after it is used it is dropped and leaves the inventory.
+
+If item is equipped and has charges and player alive : [use item], [remove charge from inventory]
+If item is not equipped display item not equipped error.
+If item has no charges display item has no charges error
