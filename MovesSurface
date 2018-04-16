@@ -1,0 +1,6 @@
+Player moves on the surface of Endor.
+Prerequisite: Player must be alive.  
+The player can move around the map by entering the direction and magnitude (Vector) expressed in an alpha character and a number from 1-9.  The player can move in any direction North, South, West, and East or any combination of any two adjacent directions to move in a diagonal direction.  If the players path is blocked by an obstacle the player will only move as far in the direction entered as they can and the remaining distance will be truncated.  
+
+If player move (direction and magnitude) is not obstructed move.
+If player move obstructed stop player move, display message you have run into <obstacle>.
