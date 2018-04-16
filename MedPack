@@ -1,0 +1,10 @@
+Player Uses Medpack
+Prerequisite for using medpack: Player Health is higher than 0. 
+
+Ouchies happen when wars are fought among the stars. Especially on Endor. Good thing there are medpacks. Medpacks are the healing mechanism that would allow a player to recover HP. When a player uses the medpack action, if a medpack is present, the player is then allowed to heal. The player should see the amount that they heal by. The player should see the health monitoring mechanism reflect this. 
+
+Prerequisite: Player currently has an equipped Medpack. [see the player equips item user story].
+If player does not have item that heals life equipped, display error “No medpack available.”
+Player sees amount of total life healed, displayed.
+Player sees life total increase based on healing received.  
+Player sees total number of medpacks reduce by 1.
