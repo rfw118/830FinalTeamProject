@@ -1,7 +1,11 @@
 package UI;
 
 public class SortCommand implements Commandable {
-
+	
+	public SortCommand(MyGame g)
+	{
+		g.Subscribe(this);
+	}
 	
 	
 	@Override

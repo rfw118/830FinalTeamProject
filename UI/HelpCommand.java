@@ -4,9 +4,9 @@ public class HelpCommand implements Commandable{
 
 	private String sHelpCommands = "Command Help: 'Quit', 'Help', 'Inventory', 'Sort:<Author|Title|Year|NoSort>'";
 	
-	public HelpCommand()
+	public HelpCommand(MyGame g)
 	{
-		
+		g.Subscribe(this);
 	}
 
 	@Override

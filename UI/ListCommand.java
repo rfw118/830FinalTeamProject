@@ -4,9 +4,9 @@ public class ListCommand implements Commandable {
 
 	
 	
-	public ListCommand()
+	public ListCommand(MyGame g)
 	{
-		
+		g.Subscribe(this);
 	}
 	
 	
@@ -48,8 +48,5 @@ public class ListCommand implements Commandable {
 
 		return s.toUpperCase().equals("LIST"); //returns true for match and false for no match.
 	}
-
-
-
 
 }

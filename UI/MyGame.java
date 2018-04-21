@@ -12,12 +12,13 @@ public class MyGame {
   This is stubbed out code that allows the basic interface and game to run.
 
  */
-	public HelpCommand HelpMe = new HelpCommand();
-	public QuitCommand QuitMe = new QuitCommand();
-	public ListCommand ListMe = new ListCommand();
-	public SortCommand SortMe = new SortCommand();
-	public InventoryCommand InvMe = new InventoryCommand();
 	public List<Commandable> UserCommands = new ArrayList<Commandable>();
+	public HelpCommand HelpMe = new HelpCommand(this);
+	public QuitCommand QuitMe = new QuitCommand(this);
+	public ListCommand ListMe = new ListCommand(this);
+	public SortCommand SortMe = new SortCommand(this);
+	public InventoryCommand InvMe = new InventoryCommand(this);
+	
 	public Inventory BeltAndBackPack = new Inventory();
 	private Boolean bolQuit = false;
 	private String sSortOrder = "";
@@ -37,11 +38,12 @@ public class MyGame {
 	{
 		this.bolQuit = false;
 		Scanner inputScanner = new Scanner(System.in);
+		/*
 		Subscribe(this.HelpMe);
 		Subscribe(this.QuitMe);
 		Subscribe(this.ListMe);
 		Subscribe(this.SortMe);		
-		
+		*/
 		UserInterface.UserOutput("Welcome!  You are now playing Escape From Endor!" + sCR + sCR);
 
 		UserInterface.UserOutput(sCR + "You are the AT-ST driver pulled, by Chewbacca, from the AT-ST and commandeered by Chewbacca and two Ewoks and you find yourself lying on the floor of the forest moon" + sCR 

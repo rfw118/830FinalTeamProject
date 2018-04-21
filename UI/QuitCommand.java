@@ -4,9 +4,9 @@ public class QuitCommand
 implements Commandable
 {
 
-	public QuitCommand() {
-		
-	
+	public QuitCommand(MyGame g) 
+	{
+		g.Subscribe(this);
 	}
 	
 	@Override
@@ -22,11 +22,5 @@ implements Commandable
 		
 		
 	}
-	/*
-	private String CommandMessage()
-	{
-		
-		return "I ran!";
-	}
-	*/
+
 }
